@@ -1,9 +1,10 @@
-#calculator-display {
-    background-color: lightgrey;
+#calculator {
+    max-width: 60%;
+    margin: auto;
 }
 
-.calculator {
-
+#calculator-display {
+    background-color: #EFE6DD;
 }
 
 .calculator-display-grid {
@@ -20,5 +21,12 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-.calculator-button-item {
+.calculator-button-number {
+    background-color: #779CAB;
+}
+.calculator-button-operator {
+    background-color: #627C85;
+}
+.calculator-button-main {
+    background-color: #A2E8DD;
 }

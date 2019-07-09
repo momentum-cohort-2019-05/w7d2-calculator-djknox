@@ -1,10 +1,22 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+}
 #calculator {
     max-width: 60%;
     margin: auto;
 }
 
 #calculator-display {
-    background-color: #EFE6DD;
+    place-self: end;
 }
 
 .calculator-display-grid {

@@ -10,7 +10,7 @@ clearButton.addEventListener('click', function () {
 // and replace calculator-display's innerText with the result
 const equalsButton = document.querySelector('#calculator-equals');
 equalsButton.addEventListener('click', function () {
-    display.innerText = eval(display.innerText);
+    display.innerText = math.evaluate(display.innerText);
 });
 
 // add click listeners to every button with .calculator-button-item class

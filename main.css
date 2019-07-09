@@ -1,0 +1,25 @@
+#calculator-display {
+    background-color: lightgrey;
+}
+
+.calculator {
+
+}
+
+.calculator-display-grid {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.calculator-button-grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.calculator-button-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.calculator-button-item {
+    justify-self: center;
+}

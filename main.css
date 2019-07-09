@@ -36,9 +36,18 @@ body {
 .calculator-button-number {
     background-color: #779CAB;
 }
+.calculator-button-number:hover {
+    background-color: #32DE8A;
+}
 .calculator-button-operator {
     background-color: #627C85;
 }
+.calculator-button-operator:hover {
+    background-color: #95AFBA;
+}
 .calculator-button-main {
     background-color: #A2E8DD;
+}
+.calculator-button-main:hover {
+    background-color: #35524A;
 }
